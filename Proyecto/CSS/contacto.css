@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Ga+Maamli&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Reinicio de estilos para un diseño consistente */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #2C3E50;
+    background-color: #f4f4f9;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+
+/* Estilos para la sección de contacto */
+#contacto {
+    padding: 20px;
+    margin: 5px auto;
+    max-width: 50%;
+    height: auto;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+
+.mensaje_cliente p {
+    font-size: 18px;
+    margin: 5px;
+}
+
+.mensaje_cliente strong {
+    color: #2C3E50;
+}
+
+/* Estilo de formulario */
+.contact_form {
+    margin: 10px auto;
+}
+
+.contact_form fieldset {
+    border: none;
+}
+
+.contact_form label {
+    font-weight: bold;
+    color: #2C3E50;
+}
+
+.contact_form input[type="text"],
+.contact_form input[type="email"],
+.contact_form input[type="tel"],
+.contact_form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #2C3E50;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.contact_form input[type="text"]:focus,
+.contact_form input[type="email"]:focus,
+.contact_form input[type="tel"]:focus,
+.contact_form textarea:focus {
+    border: #2C3E50;
+    outline: none;
+}
+
+.contact_form button {
+    background-color: #2C3E50;
+    color: #f8f9fa;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 4px;
+}
+
+.contact_form button:hover {
+    background-color: #4A7A8C;
+    transform: scale(1.05);
+}
+
+
+.contact_form {
+    animation: fadeInUp 0.8s ease-in-out;
+}
+
+
+

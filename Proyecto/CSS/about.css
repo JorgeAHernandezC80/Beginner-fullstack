@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Ga+Maamli&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Reinicio de estilos para un diseño consistente */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #2C3E50;
+    background-color: #f4f4f9;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+/* Estilos del Main (Contenido Principal) */
+#about {
+    margin: 70px auto;
+    margin-bottom: 10px;
+    padding: 20px;
+    max-width: 70%;
+}
+
+/* Título Principal */
+#about h1 {
+    font-size: 26px;
+    color: #2C3E50;
+    text-align: left;
+    margin: 10px auto;
+}
+
+/* Secciones del Main */
+section {
+    margin: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+section h2 {
+    font-size: 22px;
+    color: #2C3E50;
+    margin: 10px auto;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #2C3E50;
+    padding: 5px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #2C3E50;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+.historia_titulo,
+.mision_titulo,
+.vision_titulo,
+.valores_titulo {
+    margin: 15px auto;
+}
+
+/* Estilo para la Sección de Valores */
+.valores_descripcion p {
+    margin: 15px auto;
+    font-size: 18px;
+    color: #2C3E50;
+}
+
+/* Estilo para cada valor */
+.valores_descripcion p strong {
+    color: #2C3E50;
+    font-weight: 600;
+}
+

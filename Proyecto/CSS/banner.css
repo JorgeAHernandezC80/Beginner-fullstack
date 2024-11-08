@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Ga+Maamli&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Reinicio de estilos para un diseño consistente */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #2C3E50;
+    background-color: #f4f4f9;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+#index {
+    margin-top: 70px; /* Ajusta esta medida según la altura del header */
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    background-color: #f8f9fa; /* Color de fondo suave */
+    padding: 10px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra suave */
+    margin: 10px; /* Margen superior e inferior, centrado horizontalmente */
+    max-width: 100%; /* Ancho máximo de la sección */
+
+}
+
+/* Estilo para el contenido del banner */
+.banner_content {
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between; /* Alinea el contenido en una fila */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+/* Estilo para el logo del banner */
+#logo-banner {
+    border: solid black;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center; /* Centra el logo */
+}
+
+/* Estilo para el logo de la compañía */
+.company_logo {
+    max-width: 150px; /* Ajusta el tamaño máximo del logo */
+}
+
+/* Sección de búsqueda */
+#search_section {
+    display: flex; /* Usar flexbox para alinear la barra de búsqueda */
+    flex-direction: column; /* Colocar los elementos en columna */
+    align-items: center; /* Centrar horizontalmente */
+    margin: 5px; /* Espacio superior e inferior */
+}
+
+/* Barra de búsqueda */
+.search_bar {
+    display: flex; /* Alinear input y botón */
+    justify-content:space-between; /* Colocar input y botón en columna */
+    align-items: center; /* Alinear al ancho completo */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 10px auto; /* Centrar en el contenedor */
+    padding: 10px;
+    background-color: #f8f9fa; /* Color de fondo claro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Sombra sutil */
+}
+
+/* Estilos del input */
+.search_bar input[type="text"] {
+    padding: 15px; /* Espacio interno */
+    width: 500px;
+    font-size: 18px; /* Tamaño de la fuente */
+    color: #2C3E50; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados en el input */
+    margin: 0 auto; /* Espacio entre input y botón */
+}
+
+/* Estilos del botón */
+.search-button {
+    background-color: #2C3E50; /* Color de fondo del botón */
+    color: #f8f9fa; /* Color del texto del botón */
+    margin: 5px;
+    padding: 10px; /* Espaciado interno del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.5s, transform 0.3s; /* Transición suave para el hover */
+    border-radius: 5px; /* Bordes redondeados del botón */
+}
+
+.search-button:hover {
+    background-color: #34495e; /* Color más oscuro al pasar el mouse */
+    transform: scale(1.0); /* Efecto de escalado al pasar el mouse */
+}
+
+/* Estilo para el icono del botón */
+.search-button i {
+    font-size: 20px; /* Tamaño del icono de búsqueda */
+}
+
+/* Estilos de accesibilidad */
+.search_bar input[type="text"]::placeholder {
+    color: #aaa; /* Color del texto del placeholder */
+    opacity: 1; /* Asegurarse que sea visible */
+}
+
+/* Contenido principal */
+#main_content {
+    text-align: center; /* Alinear texto al centro */
+    padding: 20px; /* Aumentar espacio interno del contenedor */
+    max-width: 800px; /* Ajustar ancho máximo del contenedor */
+    margin: 10px; /* Centrar el contenedor en la página */
+    background-color: #f8f9fa; /* Color de fondo claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra más sutil */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilos para el encabezado */
+h1 {
+    font-size: 28px; /* Aumentar tamaño del encabezado */
+    color: #2C3E50; /* Color del texto */
+    margin: 10px 0; /* Espacio superior e inferior */
+}
+
+/* Estilos para el párrafo */
+p {
+    font-size: 18px; /* Ajustar tamaño del texto del párrafo */
+    margin: 10px 0; /* Margen superior e inferior */
+    color: #2C3E50; /* Color del texto */
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Cambié el idioma a español -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - Transporte Local</title>
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/banner.css">
+    <link rel="stylesheet" href="/CSS/contacto.css">
+    <link rel="stylesheet" href="/CSS/about.css">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="/CSS/servicios.css">
+    <link rel="stylesheet" href="/CSS/signin.css">
+    <link rel="stylesheet" href="/CSS/signup.css">
+    <link rel="stylesheet" href="/CSS/forgot-pwd.css">
+
+    
+    <!-- Fuentes y Font Awesome -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Ga+Maamli&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/IMG/favicon.ico" type="image/x-icon"> 
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <div class="logo" id="logo">
+            <img class="logo-img" src="/IMG/Logo.jpg" alt="Logo de JAH CODE SPECTRUM">
+            <h1 class="company_name">JAH CODE SPECTRUM</h1>
+        </div>
+        <nav class="menu" id="navigation-menu" role="navigation" aria-label="Main Navigation">
+            <ul>
+                <li><a href="/HTML/index.html"><i class="fa-solid fa-house"></i>Inicio</a></li>
+                <li><a href="/HTML/servicios.html" class="active"><i class="fa-solid fa-layer-group"></i></i>Servicios</a></li>
+                <li><a href="/HTML/contact.html"><i class="fas fa-envelope"></i>Contacto</a></li>
+                <li><a href="/HTML/about.html"><i class="fa-regular fa-address-card"></i>Acerca de Nosotros</a></li>
+                <li><a href="/HTML/signin.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="servicios">
+
+        <!-- Sección de categorías -->
+        <section id="servicios_categorias">
+            <h2 class="categoria_transporte_titulo">Transporte Local</h2>
+            <div class="category-container">
+                <div class="category">
+                    <a href="#taxis"> <!-- Enlace contenido Taxis -->
+                        <h3>Taxis</h3>
+                        <p>Servicios de taxi confiables y seguros para transportarse de forma rápida y cómoda en la ciudad.</p>
+                    </a>
+                </div>
+
+                <div class="category">
+                    <a href="#bicicletas"> <!-- Enlace contenido Bicicletas -->
+                        <h3>Bicicletas</h3>
+                        <p>Renta de bicicletas para una experiencia ecológica y saludable en los recorridos urbanos.</p>
+                    </a>
+                </div>
+                <div class="category">
+                    <a href="#scooters"> <!-- Enlace contenido Scooters -->
+                        <h3>Scooters Eléctricos</h3>
+                        <p>Fáciles de usar y prácticos para desplazarse rápidamente en áreas turísticas y puntos de interés.</p>
+                    </a>
+                </div>
+                <div class="category">
+                    <a href="#RentaVehículos"> <!-- Enlace contenido Renta de Vehículos -->
+                        <h3>Renta de Vehículos</h3>
+                        <p>Amplia selección de vehículos para alquiler, adaptados a las necesidades de cada visitante.</p>
+                    </a>
+                </div>
+                <div class="category">
+                    <a href="#Autobuses"> <!-- Enlace contenido Autobuses -->
+                        <h3>Autobuses Turísticos</h3>
+                        <p>Recorridos panorámicos en autobuses turísticos que cubren los principales lugares de interés.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de tipos de Taxis -->
+        <section id="taxis">
+            <h2 class="tipo_taxis_titulo">Tipos de Taxis</h2>
+            <div class="category_container_taxi">
+                <article class="taxi_estandar" id="service-standard-taxi">
+                    <div class="tipo_taxi_titulo">
+                        <h3>Taxi Estándar</h3>
+                    </div>
+                    <div class="tipo_taxi_descripcion">
+                        <p>Ideales para recorridos por senderos naturales y terrenos accidentados.</p>
+                    </div>
+                    <div class="tipo_taxi_imagen">
+                        <img src="/IMG/Transporte Local/Taxi Estandar.png" alt="Taxi Estándar">
+                    </div>
+                    <div class="tipo_taxi_opciones">
+                        <button class="opcion-compra"><a href="compra.html">Comprar</a></button>
+                        <button class="opcion-alquiler"><a href="alquiler.html">Alquilar</a></button>
+                    </div>
+                </article>
+
+                <article class="taxi_van" id="service-van-taxi">
+                    <div class="tipo_taxi_titulo">
+                        <h3>Taxi Van</h3>
+                    </div>
+                    <div class="tipo_taxi_descripcion">
+                        <p>Diseñadas para carreteras y caminos pavimentados, ofrecen velocidad y ligereza.</p>
+                    </div>
+                    <div class="tipo_taxi_imagen">
+                        <img src="/IMG/Transporte Local/Taxi Van.png" alt="Taxi Van">
+                    </div>
+                    <div class="tipo_taxi_opciones">
+                        <button class="opcion-compra"><a href="compra.html">Comprar</a></button>
+                        <button class="opcion-alquiler"><a href="alquiler.html">Alquilar</a></button>
+                    </div>
+                </article>
+
+                <article class="tipo_taxi" id="service-pet-taxi">
+                    <div class="tipo_taxi_titulo">
+                        <h3>Taxi Para Mascotas</h3>
+                    </div>
+                    <div class="tipo_taxi_descripcion">
+                        <p>Bicicletas cómodas y prácticas para moverse por áreas urbanas.</p>
+                    </div>
+                    <div class="tipo_taxi_imagen">
+                        <img src="/IMG/Transporte Local/PetTaxi.png" alt="PetTaxi">
+                    </div>
+                    <div class="tipo_taxi_opciones">
+                        <button class="opcion-compra"><a href="compra.html">Comprar</a></button>
+                        <button class="opcion-alquiler"><a href="alquiler.html">Alquilar</a></button>
+                    </div>
+                </article>
+
+                <article class="taxi_nocturno" id="service-night-taxi">
+                    <div class="tipo_taxi_titulo">
+                        <h3>Taxi Nocturno</h3>
+                    </div>
+                    <div class="tipo_taxi_descripcion">
+                        <p>Con motor eléctrico, perfectas para distancias largas y terrenos inclinados.</p>
+                    </div>
+                    <div class="tipo_taxi_imagen">
+                        <img src="/IMG/Bicicletas/Tándem.jpeg" alt="Tándem">
+                    </div>
+                    <div class="tipo_taxi_opciones">
+                        <button class="opcion-compra"><a href="compra.html">Comprar</a></button>
+                        <button class="opcion-alquiler"><a href="alquiler.html">Alquilar</a></button>
+                    </div>
+                </article>
+
+                <a href="#top" id="up">Volver Arriba</a> <!-- Enlace para volver arriba -->
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer id="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Directorio de Servicios Profesionales. Todos los derechos reservados.</p>
+        </div>
+    </footer>    
+</body>
+</html>
+
+    

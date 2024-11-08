@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Ga+Maamli&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    color: #2C3E50;
+    background-color: #f4f4f9;
+    line-height: 1.5;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Estilos para el contenedor de recuperar contraseña */
+#forgot-pwd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%; /* El contenedor ocuparía el 80% de la altura de su contenedor padre */
+    padding: 20px;
+}
+
+.container_forgot-pwd {
+    background-color: #f4f4f9; 
+    max-width: 70%;
+    height: auto;
+    margin: 10% auto; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-message {
+    font-size: 26px;
+    color: #2C3E50;
+    text-align: center;
+    margin: 20px;
+}
+
+.container_forgot-pwd p {
+    font-size: 18px;
+    color: #2C3E50;
+    text-align: center;
+    margin: 10px;
+}
+
+.form-group {
+    margin: 20px;
+}
+
+.form-group label {
+    font-size: 18px;
+    color: #2C3E50;
+}
+
+/* Estilo para los campos de entrada (input) */
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: 1.5px solid #2C3E50;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+    background-color: #f4f4f9; /* Azul claro de fondo */
+    color: #2C3E50; /* Color del texto dentro del input */
+}
+
+/* Estilo al enfocar los campos de entrada */
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus {
+    border-color: #2C3E50;
+    outline: none;
+    background-color: #E0F7FA; /* Fondo azul más claro al hacer foco */
+    color: #2C3E50; /* Color del texto al hacer foco */
+}
+
+/* Estilos para el botón */
+button[type="submit"] {
+    background-color: #2C3E50;
+    color: #f4f4f9;
+    padding: 15px;
+    font-size: 18px;
+    margin: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #4A7A8C;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #2C3E50; /* Color inicial de los enlaces */
+    text-decoration: none; /* Elimina la decoración por defecto */
+}
+
+/* Estilo cuando el puntero pasa sobre el enlace */
+a:hover {
+    text-decoration: none; /* Agrega subrayado */
+    color: #4A7A8C; /* Cambia el color del texto al pasar el puntero */
+}
+

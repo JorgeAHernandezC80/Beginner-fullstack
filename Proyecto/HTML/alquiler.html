@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Cambié el idioma a español -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - Alquiler</title>
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/banner.css">
+    <link rel="stylesheet" href="/CSS/contacto.css">
+    <link rel="stylesheet" href="/CSS/about.css">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="/CSS/servicios.css">
+    <link rel="stylesheet" href="/CSS/signin.css">
+    <link rel="stylesheet" href="/CSS/signup.css">
+    <link rel="stylesheet" href="/CSS/forgot-pwd.css">
+    
+    <!-- Fuentes y Font Awesome -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Ga+Maamli&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/IMG/favicon.ico" type="image/x-icon"> <!-- Cambié el favicon a un archivo local -->
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <div class="logo" id="logo">
+            <img class="logo-img" src="/IMG/Logo.jpg" alt="Logo de JAH CODE SPECTRUM">
+            <h1 class="company_name">JAH CODE SPECTRUM</h1>
+        </div>
+        <nav class="menu" id="navigation-menu" role="navigation" aria-label="Main Navigation">
+            <ul>
+                <li><a href="/HTML/index.html" class="active"><i class="fa-solid fa-house"></i>Inicio</a></li>
+                <li><a href="/HTML/servicios.html" class="active"><i class="fa-solid fa-layer-group"></i></i>Servicios</a></li>
+                <li><a href="/HTML/contact.html"><i class="fas fa-envelope"></i>Contacto</a></li>
+                <li><a href="/HTML/about.html"><i class="fa-regular fa-address-card"></i>Acerca de Nosotros</a></li>
+                <li><a href="/HTML/signin.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="rent_servicios">
+        <section class="alquiler-container">
+            <h2>Formulario de Alquiler</h2>
+            <form id="alquiler-form">
+                <div class="form-group">
+                    <label for="producto-id">ID del Producto:</label>
+                    <input type="text" id="producto-id" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="nombre-producto">Nombre del Producto:</label>
+                    <input type="text" id="nombre-producto" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="precio-producto">Precio por Día:</label>
+                    <input type="number" id="precio-producto" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="duracion-alquiler">Duración del Alquiler (días):</label>
+                    <input type="number" id="duracion-alquiler" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn-alquilar">Alquilar Producto</button>
+                </div>
+            </form>
+        </section>
+    </main>    <!-- Pie de página -->
+    <footer id="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Directorio de Servicios Profesionales. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+        
+</body>
+</html>

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Ga+Maamli&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* General Styles */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    color: #2C3E50;
+    background-color: #f4f4f9;
+    line-height: 1.5;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    padding: 20px;
+    margin-top: 70px; /* Ajusta esta medida según la altura del header */
+    margin-bottom: 10px;
+
+}
+
+/* Contenedor del formulario */
+.form-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin: 10% auto; 
+    padding: 20px;
+    background-color: #f4f4f9; 
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos del formulario */
+form {
+    width: 100%;
+    border: solid 2px #2C3E50;
+    border-radius: 8px; 
+}
+
+fieldset {
+    border: none; 
+    padding: 20px;
+    margin: 10px;
+}
+
+legend {
+    font-size: 22px; 
+    color: #2C3E50;
+    padding: 5px;
+    margin: 5px auto;
+    border-bottom: 2px solid #2C3E50; 
+}
+
+label {
+    display: block; 
+    margin: 5px; 
+}
+
+/* Estilo para los campos de entrada (input) */
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border: 1.5px solid #2C3E50;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+    background-color: #f4f4f9; /* Azul claro de fondo */
+    color: #2C3E50; /* Color del texto dentro del input */
+}
+
+/* Estilo al enfocar los campos de entrada */
+input[type="email"]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #2C3E50;
+    outline: none;
+    background-color: #E0F7FA; /* Fondo azul más claro al hacer foco */
+    color: #2C3E50; /* Color del texto al hacer foco */
+}
+
+button[type="submit"] {
+    background-color: #2C3E50;
+    color: #f4f4f9;
+    padding: 15px;
+    font-size: 18px;
+    margin: 10px auto;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #4A7A8C;
+}
+
+/* Estilos del enlace */
+a {
+    color: #2C3E50; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+a:hover {
+    color: #4A7A8C; 
+}
+
+

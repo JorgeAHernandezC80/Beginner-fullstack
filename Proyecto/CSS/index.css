@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Ga+Maamli&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Reinicio de estilos para un diseño consistente */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #2C3E50;
+    background-color: #f4f4f9;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+#index {
+    margin-top: 70px; /* Ajusta esta medida según la altura del header */
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+/* Estilo general para la sección de servicios */
+.servicios_ppal {
+    background-color: #f8f9fa; /* Color de fondo suave */
+    letter-spacing: 0.5px;
+    padding: 40px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Sombra suave */
+    margin: 10px; /* Margen superior e inferior, centrado horizontalmente */
+    max-width: 100%; /* Ancho máximo de la sección */
+}
+
+/* Estilo para el título de información turística */
+#tourism-info {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px; /* Tamaño del título */
+    color: #2C3E50; /* Color oscuro */
+    margin-bottom: 20px; /* Espaciado inferior */
+    text-align: center; /* Centrar el título */
+}
+
+/* Estilo para el título de servicios */
+#services-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px; /* Tamaño del título */
+    color: #2C3E50; /* Color oscuro */
+    margin-bottom: 20px; /* Espaciado inferior */
+    text-align: center; /* Centrar el título */
+}
+
+/* Estilo de la descripción de servicio */
+#index .servicio-descripcion {
+    margin: 10px; /* Espaciado inferior */
+}
+
+#index .servicio-descripcion p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px; /* Tamaño del título */
+    color: #555; /* Color gris oscuro */
+    line-height: 1.4; /* Altura de línea para mejor legibilidad */
+}
+
+/* Estilo para el contenedor de servicios */
+.servicios_ppal-grid {
+    display: grid; /* Usar grid para el diseño */
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Adaptar a diferentes tamaños de pantalla */
+    gap: 20px; /* Espacio entre los artículos */
+}
+
+/* Estilo de cada servicio */
+.servicio {
+    background-color: #f8f9fa; /* Fondo blanco para los artículos */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); /* Sombra para los artículos */
+    transition: transform 0.2s; /* Transición suave para el efecto hover */
+    overflow: hidden; /* Evitar que el contenido sobresalga */
+}
+
+/* Efecto al pasar el mouse sobre cada servicio */
+.servicio:hover {
+    transform: translateY(-5px); /* Levantar ligeramente el artículo */
+}
+
+/* Estilo para las imágenes */
+.servicio-imagen {
+    text-align: center; /* Centrar imagen */
+    margin: 10px auto; /* Espaciado vertical */
+}
+
+.servicio-imagen img {
+    width: 100%; /* Ajustar imagen al contenedor */
+    border-radius: 4px; /* Bordes redondeados en la imagen */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+/* Estilo del enlace */
+.servicio a {
+    text-decoration: none; /* Quitar subrayado del enlace */
+    color: inherit; /* Mantener el color del texto */
+}
+
+/* Estilo para los encabezados de cada servicio */
+#index .servicio h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px; /* Tamaño del encabezado */
+    color: #2C3E50; /* Color del texto */
+    margin-bottom: 10px; /* Espaciado inferior */
+    text-align: center; /* Centrar texto */
+}
+
+/* Estilos para el pie de página */
+#footer {
+    background-color: #2C3E50; /* Color de fondo oscuro */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    font-family: "Roboto", sans-serif;
+    position: relative; /* Asegurar que el pie de página se coloque correctamente */
+    width: 100%; /* Ancho completo */
+}
+
+/* Contenido del pie de página */
+.footer-content p {
+    color: #f8f9fa; /* Color del texto */
+    margin: 0; /* Eliminar margen del párrafo */
+    font-size: 20px; /* Tamaño de fuente más pequeño */
+}
